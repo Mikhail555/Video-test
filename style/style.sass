@@ -1,0 +1,36 @@
+@import "_mixins"
+
+$black: #000000  
+$gray_for_Text: #828282
+
+.header 
+    @include flex-center(100%, auto ,auto )
+    background-color: $black
+.inner_menu
+    @include flex(80%, auto ,auto )
+    justify-content: space-between
+    align-items: center
+    // background-color: #fff
+    a
+        font-family: SF UI Display
+        font-size: 24px
+        line-height: 29px
+        color: #FFFFFF
+        img
+            margin-right: 20px
+.nev_menu
+    @include flex(20%, auto ,80px )
+    justify-content: space-between
+    align-items: center
+    // background-color: #1be608
+.box 
+    @include size(40px, 40px ,auto )
+    background-color: #e60808
+
+    
+    
+
+        
+    
+
+    
